@@ -165,10 +165,22 @@ html, body {
 }
 
 .tmim {
-  margin-bottom: 10px;
   font-size: 24px;
   font-weight: bold;
   color: #333;
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.wsbtn-container{
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .wsbtn {
@@ -180,6 +192,7 @@ html, body {
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
+  text-align: center;
 }
 
 .wsbtn:hover {
@@ -195,5 +208,10 @@ html, body {
 #label-container {
   font-size: 20px;
   color: #555;
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
   margin-top: 10px;
+  text-align: center;
+
 }
